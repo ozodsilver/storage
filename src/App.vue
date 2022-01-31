@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <h2>salom</h2>
+  <Navigation> </Navigation>
   </div>
 </template>
 
 <script>
-
+import nav from './components/nav'
 
 export default {
-  
-  components: {
-   
-  },
+components:{
+Navigation:nav
+},
 
   data(){
     return{
@@ -22,5 +21,8 @@ export default {
 </script>
 
 <style>
-
+*{
+  margin: 0;
+  padding: 0;
+}
 </style>
