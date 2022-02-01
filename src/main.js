@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueScrollProgressBar from '@guillaumebriday/vue-scroll-progress-bar'
 
-Vue.config.productionTip = false
+Vue.use(VueScrollProgressBar)
 
 new Vue({
   render: h => h(App),
