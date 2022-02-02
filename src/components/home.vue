@@ -5,11 +5,17 @@
 <div class="nad-video">
     <div class="left">
 <div class="center">
-    <h2>salom Men ozodsoxn</h2>
+    <div>
+       <h1 class="text-white fw-bold">"Поставить <span class="text-warning">цель</span>, двигаться дальше и достигать <span class="text-success">результата</span> "</h1>
+    <vue-typed-js :strings="['Привет', 'Я Ozodxon Rabbanaqulov', 'Я frontend(vue.js) developer']">
+  <h1 class="typing text-light"></h1>
+</vue-typed-js> 
+    </div>
+    
 </div>
     </div>
 
-    <div class="right">
+    <div class="right" v-tilt>
        
     </div>
 
