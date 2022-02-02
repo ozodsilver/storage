@@ -11,6 +11,16 @@
 </lord-icon>
 <h4><a href="#">Главная</a></h4>
       </div>
+      
+
+      <div class="dark">
+        <lord-icon
+    src="https://cdn.lordicon.com/jqyglkav.json"
+    trigger="hover"
+    colors="primary:#ffffff,secondary:#ffffff"
+    style="width:50px;height:50px;cursor:pointer">
+</lord-icon>
+      </div>
       </nav>
 
      
