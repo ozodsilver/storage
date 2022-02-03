@@ -15,8 +15,17 @@
 </div>
     </div>
 
-    <div class="right" v-tilt>
-       
+    <div class="right" v-tilt = '{glare:true}'>
+      <div>
+            <a href="" class="text-white">link1</a>
+           <a href="" class="text-white">link1</a>
+            <a href="" class="text-white">link1</a>
+             <a href="" class="text-white">link1</a>
+              <a href="" class="text-white">link1</a>
+      </div>
+        
+              
+      
     </div>
 
      <div class="shadow">
