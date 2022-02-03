@@ -8,11 +8,12 @@
 <script>
 import nav from './components/nav'
 import Home from './components/home'
-
+import about from './components/about'
 export default {
 components:{
 Navigation:nav,
-Home
+Home,
+about
 },
 
   data(){
