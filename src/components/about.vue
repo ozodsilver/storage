@@ -1,6 +1,8 @@
 <template>
     <div>
-        
+        <div class="about">
+
+        </div>
     </div>
 </template>
 
@@ -25,5 +27,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+@import './styles/about.scss'
 </style>

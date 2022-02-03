@@ -2,18 +2,20 @@
   <div id="app">
   <Navigation> </Navigation>
   <Home> </Home>
+  <About> </About>
   </div>
 </template>
 
 <script>
 import nav from './components/nav'
 import Home from './components/home'
-import about from './components/about'
+import About from './components/About'
+
 export default {
 components:{
 Navigation:nav,
 Home,
-about
+About
 },
 
   data(){
