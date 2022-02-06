@@ -1,10 +1,11 @@
 .about{
     width: 100%;
-    height: 500px;
+    height: auto;
     background: rgb(40, 27, 54);
     border-top-right-radius: 2%;
     border-top-left-radius: 2%;
     position: relative;
+    z-index: 44;
     margin-top: -57px;
     clip-path: polygon(0 10%, 30% 10%, 36% 0, 63% 0, 68% 10%, 100% 10%, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
     transition:1s ;
@@ -12,4 +13,29 @@
     -moz-transition:1s ;
     -ms-transition:1s ;
     -o-transition:1s ;
+
+    .border-rad{
+        width: 70%;
+        height: 450px;
+        border-radius:54% 46% 79% 21% / 54% 100% 0% 46% ;
+        -webkit-border-radius:54% 46% 79% 21% / 54% 100% 0% 46% ;
+        -moz-border-radius:54% 46% 79% 21% / 54% 100% 0% 46% ;
+        -ms-border-radius:54% 46% 79% 21% / 54% 100% 0% 46% ;
+        -o-border-radius:54% 46% 79% 21% / 54% 100% 0% 46% ;
+        background: rgba(14, 84, 97, 0.4);
+        box-shadow: inset 0 0 100px black;
+        top: 0;
+        .me
+{
+           width: 100%;
+           height: 100%;
+           transform:translateX(-500px) ;
+           -webkit-transform:translateX(-500px) ;
+           -moz-transform:translateX(-500px) ;
+           -ms-transform:translateX(-500px) ;
+           -o-transform:translateX(-500px) ;
+           transition : 1s ;
 }
+}
+}
+

@@ -22,11 +22,30 @@ About
     return{
 
     }
-  }
+  },
+
+  methods:{
+onWindowLoad() {
+            let app = document.querySelector('#app');
+
+            app.style.display = 'block';
+        },
+  },
+
+created(){
+   window.addEventListener("load", this.onWindowLoad);
+},
+  
 }
 </script>
 
 <style>
+
+#app{
+display: none;
+}
+
+
 *{
   margin: 0;
   padding: 0;
