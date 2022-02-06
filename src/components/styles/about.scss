@@ -1,0 +1,15 @@
+.about{
+    width: 100%;
+    height: 500px;
+    background: rgb(40, 27, 54);
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+    position: relative;
+    margin-top: -57px;
+    clip-path: polygon(0 10%, 30% 10%, 36% 0, 63% 0, 68% 10%, 100% 10%, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
+    transition:1s ;
+    -webkit-transition:1s ;
+    -moz-transition:1s ;
+    -ms-transition:1s ;
+    -o-transition:1s ;
+}

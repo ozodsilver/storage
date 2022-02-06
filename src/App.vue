@@ -58,4 +58,12 @@ border-bottom-right-radius: 30px;
   background: #555;
 }
 
+body{
+  background: url('https://avatars.mds.yandex.net/i?id=9ee92feec806752a3b2ecfa489212ff5-5343257-images-thumbs&n=13');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
 </style>

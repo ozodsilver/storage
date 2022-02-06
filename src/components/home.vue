@@ -56,7 +56,7 @@ export default {
     let about = document.querySelector('.about');
         console.log(window.scrollY);
 
-    if(window.scrollY == 600 ){jhuooooooooowei900000qq099999999999op-00000
+    if(window.scrollY == 600 ){
         about.style.marginTop ='-77px !important';
 
     }
