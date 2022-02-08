@@ -9,7 +9,7 @@
 <script>
 import nav from './components/nav'
 import Home from './components/home'
-import About from './components/About'
+import About from './components/about'
 
 export default {
 components:{
@@ -24,26 +24,14 @@ About
     }
   },
 
-  methods:{
-onWindowLoad() {
-            let app = document.querySelector('#app');
-
-            app.style.display = 'block';
-        },
-  },
-
-created(){
-   window.addEventListener("load", this.onWindowLoad);
-},
+  
   
 }
 </script>
 
 <style>
 
-#app{
-display: none;
-}
+
 
 
 *{
