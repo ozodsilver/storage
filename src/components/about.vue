@@ -2,39 +2,49 @@
     <div>
         <div class="about">
 <h2 class="text-center text-white pt-3">About me</h2>
-<div class="liniya">
+<div class="liniya pt-4 px-3 container">
 
-       <a href="#" class="mx-3">dsdsds</a>
-    <a href="#">dsdsds</a>
+     
+<button @click="selectedComponent = 'first'" class="btn btn-warning">
+  images
+</button>
+
+<button @click="selectedComponent = 'second'" class="btn btn-danger mx-4">
+  works
+</button>
+
+<button @click="selectedComponent = 'third'" class="btn btn-warning">
+  ishxona
+</button>
+
+<component :is="selectedComponent"> </component>
+</div>
+
+<div>
 
 </div>
 
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-lg-6">
-<div class="border-rad" >
-<img src="../assets/hhhhh-removebg-preview.png" alt="" class="me">
-</div>
-        </div>
 
-        <div class="col-lg-6">
-<h2 class="text-center text-white">Ozodxon</h2>
-<h5 class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolores hic asperiores in quisquam voluptatem fuga voluptas sit, sunt autem amet inventore totam tenetur similique illo tempora accusantium deleniti optio?</h5>
-        </div>
-    </div>
-</div>
+
 
         </div>
     </div>
 </template>
 
 <script>
+import first from './aboutme/first.vue'
+import second from './aboutme/second.vue'
+import third from './aboutme/third.vue'
 export default {
-    
+    components:{
+        first,
+        second,
+        third
+    },
 
     data() {
         return {
-            
+            selectedComponent:'first'
         };
     },
 
@@ -50,14 +60,23 @@ export default {
 let me = document.querySelector('.me');
      if(window.scrollY > 200 && window.scrollY < 500) {
       about.style.marginTop = '-150px'
-      me.style.cssText = 'transform: translateX(0px)'
+     
      }
 
      if(window.scrollY > 0 && window.scrollY < 200) {
       about.style.marginTop = '-70px'
-me.style.cssText = 'transform: translateX(-700px)'
+
      }
-    }
+
+
+     if(window.scrollY > 500){
+ me.style.cssText = 'transform:translateX(0px)'
+     }
+     
+    
+    },
+
+   
   }
 
 };
